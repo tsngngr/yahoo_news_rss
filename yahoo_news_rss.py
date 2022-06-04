@@ -4,7 +4,7 @@ import os
 
 # データを保存するためのディレクトリ
 # cronで実行する場合は絶対パスにすること
-DATA_DIR = 'data'
+DATA_DIR = './github/yahoo_news_rss/data'
 
 # RSSのトピック名とRSSファイルの対応
 topics = {"主要": "top-pics", "国内": "domestic", "国際": "world", "IT": "it"}
