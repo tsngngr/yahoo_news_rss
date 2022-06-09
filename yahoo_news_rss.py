@@ -7,7 +7,7 @@ import os
 DATA_DIR = './github/yahoo_news_rss/data'
 
 # RSSのトピック名とRSSファイルの対応
-topics = {"主要": "top-pics", "国内": "domestic", "国際": "world", "IT": "it"}
+topics = {"主要": "top-pics", "国内": "domestic", "国際": "world", "経済": "economic", "IT": "it"}
 
 
 def savexml(topic):
